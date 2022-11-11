@@ -1,0 +1,324 @@
+
+[12/21/2021, 8:18:05 PM] Authenticating via Google.
+[12/21/2021, 8:18:07 PM] Authentication successful.
+[12/21/2021, 8:18:07 PM] API subscribe POST: app launch
+[12/21/2021, 8:18:07 PM] REST API: structure 164c1b91-ee6b-11eb-a64c-0e895627037a, mounted 6 device(s)
+[12/21/2021, 8:18:07 PM] API subscribe GET: got updated data
+[12/21/2021, 8:18:07 PM] API observe POST: streaming request initiated
+[12/21/2021, 8:18:07 PM] API observe POST: issuing
+[12/21/2021, 8:18:08 PM] API subscribe POST: subscribing
+[12/21/2021, 8:18:08 PM] API observe POST: complete message received (14298)
+[12/21/2021, 8:18:09 PM] API observe POST: complete message received (53136)
+[12/21/2021, 8:18:09 PM] Protobuf message object length 1
+[12/21/2021, 8:18:09 PM] Protobuf updated properties: application_keys@STRUCTURE_017AE532755798AD (type.nestlabs.com/weave.trait.auth.ApplicationKeysTrait), basic_structure_pincode_schedules_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/weave.trait.schedule.BasicUserSchedulesSettingsTrait), user_pincodes@STRUCTURE_017AE532755798AD (type.nestlabs.com/weave.trait.security.UserPincodesSettingsTrait), user_nfc_tokens@STRUCTURE_017AE532755798AD (type.nestlabs.com/weave.trait.security.UserNFCTokensTrait), timezone@STRUCTURE_017AE532755798AD (type.nestlabs.com/weave.trait.time.TimezoneTrait), peer_devices@STRUCTURE_017AE532755798AD (type.nestlabs.com/weave.trait.peerdevices.PeerDevicesTrait), guests@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.guest.GuestsTrait), user_access_records@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.user.UserAccessTrait), pairing@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.pairing.PairingTrait), security_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.security.SecuritySettingsTrait), structure_mode@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.occupancy.StructureModeTrait), structure_mode_capabilities@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.occupancy.StructureModeCapabilitiesTrait), distributed_security@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.security.DistributedSecurityTrait), structure_mode_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.occupancy.StructureModeSettingsTrait), custom_located_annotations@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.located.CustomLocatedAnnotationsTrait), related_resources@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.resourcedirectory.RelatedResourcesTrait), security_action_on_unlock_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.security.SecurityActionOnUnlockSettingsTrait), structure_geofencing@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.occupancy.StructureGeofencingTrait), structure_scenes@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.lighting.StructureScenesTrait), lighting_ecosystem_features_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.lighting.LightingEcosystemFeaturesSettingsTrait), security_action_on_nfc_token_global_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.security.SecurityActionOnNFCTokenGlobalSettingsTrait), lighting_action_on_security_alarm_global_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.lighting.LightingActionOnSecurityAlarmGlobalSettingsTrait), lighting_action_on_safety_alarm_global_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.lighting.LightingActionOnSafetyAlarmGlobalSettingsTrait), fan_action_on_smoke_alarm_global_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.lighting.FanActionOnSmokeAlarmGlobalSettingsTrait), security_action_on_nfc_token_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.security.SecurityActionOnNFCTokenSettingsTrait), lighting_action_on_security_alarm_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.lighting.LightingActionOnSecurityAlarmSettingsTrait), lighting_action_on_safety_alarm_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.lighting.LightingActionOnSafetyAlarmSettingsTrait), fan_action_on_smoke_alarm_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.lighting.FanActionOnSmokeAlarmSettingsTrait), motion_alerts_global_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.lighting.MotionAlertsGlobalSettingsTrait), home_info_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.structure.HomeInfoSettingsTrait), enterprise_programs@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.hvac.EnterpriseProgramsEntitlementsTrait), utility_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.hvac.UtilitySettingsTrait), safety_shutoff_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.hvac.SafetyShutoffSettingsTrait), seasonal_savings_action@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.hvac.SeasonalSavingsActionTrait), seasonal_savings_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.hvac.SeasonalSavingsSettingsTrait), demand_response_configuration@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.hvac.DemandResponseConfigurationTrait), located_annotations@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.located.LocatedAnnotationsTrait), structure_info@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.structure.StructureInfoTrait), structure_location@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.structure.StructureLocationTrait), protect_safety_summary@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.product.protect.SafetySummaryTrait), occupancy_history@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.history.OccupancyHistoryTrait), protect_legacy_structure_self_test@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.product.protect.LegacyStructureSelfTestTrait), protect_legacy_self_test_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.product.protect.LegacySelfTestSettingsTrait), safety_structure_settings@STRUCTURE_017AE532755798AD (type.nestlabs.com/nest.trait.product.protect.SafetyStructureSettingsTrait), label@DEVICE_18B430C1468E63C1 (type.nestlabs.com/weave.trait.description.LabelSettingsTrait), device_identity@DEVICE_18B430C1468E63C1 (type.nestlabs.com/weave.trait.description.DeviceIdentityTrait), battery@DEVICE_18B430C1468E63C1 (type.nestlabs.com/weave.trait.power.BatteryPowerSourceTrait), configuration_done@DEVICE_18B430C1468E63C1 (type.nestlabs.com/weave.trait.pairing.ConfigurationDoneTrait), current_temperature@DEVICE_18B430C1468E63C1 (type.nestlabs.com/nest.trait.sensor.TemperatureTrait), device_info@DEVICE_18B430C1468E63C1 (type.nestlabs.com/nest.trait.service.DeviceInfoTrait), device_located_settings@DEVICE_18B430C1468E63C1 (type.nestlabs.com/nest.trait.located.DeviceLocatedSettingsTrait), label@DEVICE_18B430C4205E8134 (type.nestlabs.com/weave.trait.description.LabelSettingsTrait), device_identity@DEVICE_18B430C4205E8134 (type.nestlabs.com/weave.trait.description.DeviceIdentityTrait), battery@DEVICE_18B430C4205E8134 (type.nestlabs.com/weave.trait.power.BatteryPowerSourceTrait), configuration_done@DEVICE_18B430C4205E8134 (type.nestlabs.com/weave.trait.pairing.ConfigurationDoneTrait), current_temperature@DEVICE_18B430C4205E8134 (type.nestlabs.com/nest.trait.sensor.TemperatureTrait), device_info@DEVICE_18B430C4205E8134 (type.nestlabs.com/nest.trait.service.DeviceInfoTrait), device_located_settings@DEVICE_18B430C4205E8134 (type.nestlabs.com/nest.trait.located.DeviceLocatedSettingsTrait), label@DEVICE_18B430C2B2FC61FD (type.nestlabs.com/weave.trait.description.LabelSettingsTrait), device_identity@DEVICE_18B430C2B2FC61FD (type.nestlabs.com/weave.trait.description.DeviceIdentityTrait), battery@DEVICE_18B430C2B2FC61FD (type.nestlabs.com/weave.trait.power.BatteryPowerSourceTrait), configuration_done@DEVICE_18B430C2B2FC61FD (type.nestlabs.com/weave.trait.pairing.ConfigurationDoneTrait), current_temperature@DEVICE_18B430C2B2FC61FD (type.nestlabs.com/nest.trait.sensor.TemperatureTrait), device_info@DEVICE_18B430C2B2FC61FD (type.nestlabs.com/nest.trait.service.DeviceInfoTrait), device_located_settings@DEVICE_18B430C2B2FC61FD (type.nestlabs.com/nest.trait.located.DeviceLocatedSettingsTrait), label@DEVICE_18B430C418D466A6 (type.nestlabs.com/weave.trait.description.LabelSettingsTrait), device_identity@DEVICE_18B430C418D466A6 (type.nestlabs.com/weave.trait.description.DeviceIdentityTrait), battery@DEVICE_18B430C418D466A6 (type.nestlabs.com/weave.trait.power.BatteryPowerSourceTrait), configuration_done@DEVICE_18B430C418D466A6 (type.nestlabs.com/weave.trait.pairing.ConfigurationDoneTrait), current_temperature@DEVICE_18B430C418D466A6 (type.nestlabs.com/nest.trait.sensor.TemperatureTrait), device_info@DEVICE_18B430C418D466A6 (type.nestlabs.com/nest.trait.service.DeviceInfoTrait), device_located_settings@DEVICE_18B430C418D466A6 (type.nestlabs.com/nest.trait.located.DeviceLocatedSettingsTrait), locale_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.locale.LocaleSettingsTrait), locale_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.locale.LocaleSettingsTrait), locale_capabilities@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.locale.LocaleCapabilitiesTrait), label@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.description.LabelSettingsTrait), device_identity@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.description.DeviceIdentityTrait), application_keys@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.auth.ApplicationKeysTrait), application_keys@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.auth.ApplicationKeysTrait), liveness@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.heartbeat.LivenessTrait), timezone@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.time.TimezoneTrait), timezone@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.time.TimezoneTrait), peer_devices_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.peerdevices.PeerDevicesTrait), peer_devices_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.peerdevices.PeerDevicesTrait), configuration_done@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.pairing.ConfigurationDoneTrait), configuration_done@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.pairing.ConfigurationDoneTrait), telemetry_tunnel@DEVICE_6416660000B958C2 (type.nestlabs.com/weave.trait.telemetry.tunnel.TelemetryTunnelTrait), unpairing@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.pairing.UnpairingTrait), ambient_motion@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.detector.AmbientMotionTrait), ambient_motion_timing_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.detector.AmbientMotionTimingSettingsTrait), ambient_motion_timing_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.detector.AmbientMotionTimingSettingsTrait), structure_mode@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.occupancy.StructureModeTrait), structure_mode@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.occupancy.StructureModeTrait), occupancy_input_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.occupancy.OccupancyInputSettingsTrait), occupancy_input_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.occupancy.OccupancyInputSettingsTrait), structure_mode_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.occupancy.StructureModeSettingsTrait), structure_mode_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.occupancy.StructureModeSettingsTrait), current_temperature@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.sensor.TemperatureTrait), backplate_temperature@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.sensor.TemperatureTrait), current_humidity@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.sensor.HumidityTrait), battery_voltage@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.sensor.BatteryVoltageTrait), user_interaction@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.ui.UserInteractionTrait), firmware_info@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.firmware.FirmwareTrait), software_update_trait@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.firmware.SoftwareUpdateTrait), telemetry_network@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.network.TelemetryNetworkTrait), telemetry_network_wifi@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.network.TelemetryNetworkWifiTrait), telemetry_wpan_trait@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.network.TelemetryNetworkWpanTrait), eco_mode@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EcoModeTrait), eco_mode_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EcoModeSettingsTrait), eco_mode_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EcoModeSettingsTrait), display_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.DisplaySettingsTrait), display_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.DisplaySettingsTrait), leaf@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.LeafTrait), airwave@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.AirwaveTrait), airwave_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.AirwaveSettingsTrait), airwave_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.AirwaveSettingsTrait), experiment_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.test.ExperimentSettingsTrait), experiment_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.test.ExperimentSettingsTrait), reset@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.ResetTrait), radiant_control_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.RadiantControlSettingsTrait), radiant_control_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.RadiantControlSettingsTrait), preconditioning_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.PreconditioningSettingsTrait), preconditioning_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.PreconditioningSettingsTrait), preconditioning@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.PreconditioningTrait), schedule_learning_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.ScheduleLearningSettingsTrait), schedule_learning_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.ScheduleLearningSettingsTrait), range_schedule_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SetPointScheduleSettingsTrait), range_schedule_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SetPointScheduleSettingsTrait), heat_schedule_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SetPointScheduleSettingsTrait), heat_schedule_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SetPointScheduleSettingsTrait), cool_schedule_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SetPointScheduleSettingsTrait), cool_schedule_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SetPointScheduleSettingsTrait), fan_control@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.FanControlTrait), fan_control_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.FanControlSettingsTrait), fan_control_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.FanControlSettingsTrait), fan_control_capabilities@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.FanControlCapabilitiesTrait), installation_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.InstallationSettingsTrait), installation_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.InstallationSettingsTrait), home_info_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.structure.HomeInfoSettingsTrait), home_info_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.structure.HomeInfoSettingsTrait), emergency_heat_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EmergencyHeatSettingsTrait), emergency_heat_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EmergencyHeatSettingsTrait), humidity_control_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.HumidityControlSettingsTrait), humidity_control_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.HumidityControlSettingsTrait), hvac_control@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.HvacControlTrait), sunblock@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SunblockTrait), sunblock_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SunblockSettingsTrait), sunblock_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SunblockSettingsTrait), hvac_equipment_capabilities@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.HvacEquipmentCapabilitiesTrait), enterprise_programs@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EnterpriseProgramsEntitlementsTrait), enterprise_programs@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EnterpriseProgramsEntitlementsTrait), equipment_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EquipmentSettingsTrait), equipment_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EquipmentSettingsTrait), wiring@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.WiringTrait), utility_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.UtilitySettingsTrait), utility_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.UtilitySettingsTrait), target_temperature_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.TargetTemperatureSettingsTrait), target_temperature_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.TargetTemperatureSettingsTrait), time_to_temperature@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.TimeToTemperatureTrait), filter_reminder@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.FilterReminderTrait), filter_reminder_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.FilterReminderSettingsTrait), filter_reminder_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.FilterReminderSettingsTrait), heat_pump_control@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.HeatPumpControlTrait), heat_pump_control_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.HeatPumpControlSettingsTrait), heat_pump_control_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.HeatPumpControlSettingsTrait), safety_shutoff@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SafetyShutoffTrait), safety_shutoff_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SafetyShutoffSettingsTrait), safety_shutoff_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SafetyShutoffSettingsTrait), safety_shutoff_capabilities@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SafetyShutoffCapabilitiesTrait), safety_temperature@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SafetyTemperatureTrait), safety_temperature_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SafetyTemperatureSettingsTrait), safety_temperature_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SafetyTemperatureSettingsTrait), temperature_lock_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.TemperatureLockSettingsTrait), temperature_lock_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.TemperatureLockSettingsTrait), wake_on_approach_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.WakeOnApproachSettingsTrait), wake_on_approach_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.WakeOnApproachSettingsTrait), backplate_version_info@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.BackplateInfoTrait), eco_mode_state@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EcoModeStateTrait), eco_mode_state@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.EcoModeStateTrait), alarming_protects@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.NestProtectAlarmingTrait), alarming_protects@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.NestProtectAlarmingTrait), cool_to_dry@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.CoolToDryTrait), cool_to_dry_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.CoolToDrySettingsTrait), cool_to_dry_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.CoolToDrySettingsTrait), display@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.HvacDisplayTrait), seasonal_savings_action@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SeasonalSavingsActionTrait), seasonal_savings_action@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SeasonalSavingsActionTrait), seasonal_savings_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SeasonalSavingsSettingsTrait), seasonal_savings_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SeasonalSavingsSettingsTrait), seasonal_savings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.SeasonalSavingsTrait), remote_comfort_sensing_state@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.RemoteComfortSensingStateTrait), remote_comfort_sensing_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.RemoteComfortSensingSettingsTrait), remote_comfort_sensing_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.RemoteComfortSensingSettingsTrait), demand_response_action@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.DemandResponseActionTrait), demand_response_action@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.DemandResponseActionTrait), demand_response_configuration@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.DemandResponseConfigurationTrait), demand_response_configuration@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.DemandResponseConfigurationTrait), demand_response@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.DemandResponseTrait), located_annotations@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.located.LocatedAnnotationsTrait), located_annotations@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.located.LocatedAnnotationsTrait), wifi_interface@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.network.WifiInterfaceTrait), structure_location@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.structure.StructureLocationTrait), structure_location@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.structure.StructureLocationTrait), device_info@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.service.DeviceInfoTrait), device_located_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.located.DeviceLocatedSettingsTrait), device_located_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.located.DeviceLocatedSettingsTrait), device_located_capabilities@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.located.DeviceLocatedCapabilitiesTrait), energy_history@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.history.EnergyHistoryTrait), radio_signal_strength@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.network.RadioSignalStrengthTrait), label@DEVICE_18B430C833EF2E4A (type.nestlabs.com/weave.trait.description.LabelSettingsTrait), device_identity@DEVICE_18B430C833EF2E4A (type.nestlabs.com/weave.trait.description.DeviceIdentityTrait), battery@DEVICE_18B430C833EF2E4A (type.nestlabs.com/weave.trait.power.BatteryPowerSourceTrait), configuration_done@DEVICE_18B430C833EF2E4A (type.nestlabs.com/weave.trait.pairing.ConfigurationDoneTrait), current_temperature@DEVICE_18B430C833EF2E4A (type.nestlabs.com/nest.trait.sensor.TemperatureTrait), device_info@DEVICE_18B430C833EF2E4A (type.nestlabs.com/nest.trait.service.DeviceInfoTrait), device_located_settings@DEVICE_18B430C833EF2E4A (type.nestlabs.com/nest.trait.located.DeviceLocatedSettingsTrait), label@DEVICE_18B430C2B0298F8D (type.nestlabs.com/weave.trait.description.LabelSettingsTrait), device_identity@DEVICE_18B430C2B0298F8D (type.nestlabs.com/weave.trait.description.DeviceIdentityTrait), battery@DEVICE_18B430C2B0298F8D (type.nestlabs.com/weave.trait.power.BatteryPowerSourceTrait), configuration_done@DEVICE_18B430C2B0298F8D (type.nestlabs.com/weave.trait.pairing.ConfigurationDoneTrait), current_temperature@DEVICE_18B430C2B0298F8D (type.nestlabs.com/nest.trait.sensor.TemperatureTrait), device_info@DEVICE_18B430C2B0298F8D (type.nestlabs.com/nest.trait.service.DeviceInfoTrait), device_located_settings@DEVICE_18B430C2B0298F8D (type.nestlabs.com/nest.trait.located.DeviceLocatedSettingsTrait), user_nfc_token_management@USER_015EAD8C8610D455 (type.nestlabs.com/weave.trait.security.UserNFCTokenManagementTrait), user_nfc_tokens_data@USER_015EAD8C8610D455 (type.nestlabs.com/weave.trait.security.UserNFCTokensTrait), gaia_merge_notifications@USER_015EAD8C8610D455 (type.nestlabs.com/nest.trait.olive.GaiaMergeNotificationsTrait), user_security_notification_settings@USER_015EAD8C8610D455 (type.nestlabs.com/nest.trait.user.UserSecurityNotificationSettingsTrait), user_lock_notification_settings@USER_015EAD8C8610D455 (type.nestlabs.com/nest.trait.user.UserLockNotificationSettingsTrait), user_info@USER_015EAD8C8610D455 (type.nestlabs.com/nest.trait.user.UserInfoTrait)
+[12/21/2021, 8:18:09 PM] Legacy user mapping USER_015EAD8C8610D455 -> user.568864
+[12/21/2021, 8:18:09 PM] Liveness 6416660000B958C2 -> LIVENESS_DEVICE_STATUS_ONLINE
+[12/21/2021, 8:18:09 PM] Protobuf API: structure 164c1b91-ee6b-11eb-a64c-0e895627037a, found 7 device(s)
+[12/21/2021, 8:18:09 PM] Found device DEVICE_18B430C2B0298F8D@nest.resource.NestKryptoniteResource
+[12/21/2021, 8:18:09 PM] ----> mounting as Nest Temperature Sensor
+[12/21/2021, 8:18:09 PM] Found device DEVICE_18B430C418D466A6@nest.resource.NestKryptoniteResource
+[12/21/2021, 8:18:09 PM] ----> mounting as Nest Temperature Sensor
+[12/21/2021, 8:18:09 PM] Found device DEVICE_6416660000B958C2@nest.resource.NestLearningThermostat3Resource
+[12/21/2021, 8:18:09 PM] ----> mounting as Nest Thermostat
+[12/21/2021, 8:18:09 PM] Found device DEVICE_18B430C1468E63C1@nest.resource.NestKryptoniteResource
+[12/21/2021, 8:18:09 PM] ----> mounting as Nest Temperature Sensor
+[12/21/2021, 8:18:09 PM] Found device DEVICE_18B430C833EF2E4A@nest.resource.NestKryptoniteResource
+[12/21/2021, 8:18:09 PM] ----> mounting as Nest Temperature Sensor
+[12/21/2021, 8:18:09 PM] Found device DEVICE_18B430C2B2FC61FD@nest.resource.NestKryptoniteResource
+[12/21/2021, 8:18:09 PM] ----> mounting as Nest Temperature Sensor
+[12/21/2021, 8:18:09 PM] Found device DEVICE_18B430C4205E8134@nest.resource.NestKryptoniteResource
+[12/21/2021, 8:18:09 PM] ----> mounting as Nest Temperature Sensor
+[12/21/2021, 8:18:57 PM] API observe POST: complete message received (135)
+[12/21/2021, 8:18:57 PM] Protobuf message object length 1
+[12/21/2021, 8:18:57 PM] Protobuf updated properties: current_temperature@DEVICE_18B430C2B0298F8D (type.nestlabs.com/nest.trait.sensor.TemperatureTrait)
+[12/21/2021, 8:18:57 PM] API observe POST: complete message received (121)
+[12/21/2021, 8:18:57 PM] Protobuf message object length 1
+[12/21/2021, 8:18:57 PM] Protobuf updated properties: hvac_control@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.HvacControlTrait)
+[12/21/2021, 8:18:57 PM] API observe POST: complete message received (126)
+[12/21/2021, 8:18:57 PM] Protobuf message object length 1
+[12/21/2021, 8:18:57 PM] Protobuf updated properties: battery@DEVICE_18B430C1468E63C1 (type.nestlabs.com/weave.trait.power.BatteryPowerSourceTrait)
+[12/21/2021, 8:18:57 PM] API observe POST: complete message received (135)
+[12/21/2021, 8:18:57 PM] Protobuf message object length 1
+[12/21/2021, 8:18:57 PM] Protobuf updated properties: current_temperature@DEVICE_18B430C1468E63C1 (type.nestlabs.com/nest.trait.sensor.TemperatureTrait)
+[12/21/2021, 8:18:57 PM] API observe POST: complete message received (139)
+[12/21/2021, 8:18:57 PM] Protobuf message object length 1
+[12/21/2021, 8:18:57 PM] Protobuf updated properties: current_temperature@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.sensor.TemperatureTrait)
+[12/21/2021, 8:18:57 PM] API observe POST: complete message received (138)
+[12/21/2021, 8:18:57 PM] Protobuf message object length 1
+[12/21/2021, 8:18:57 PM] Protobuf updated properties: time_to_temperature@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.TimeToTemperatureTrait)
+[12/21/2021, 8:18:59 PM] API subscribe GET: got updated data
+[12/21/2021, 8:18:59 PM] API subscribe POST: subscribing
+[12/21/2021, 8:20:00 PM] API observe POST: complete message received (576)
+[12/21/2021, 8:20:00 PM] Protobuf message object length 1
+[12/21/2021, 8:20:00 PM] Protobuf updated properties: remote_comfort_sensing_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.RemoteComfortSensingSettingsTrait)
+[12/21/2021, 8:20:01 PM] API observe POST: complete message received (576)
+[12/21/2021, 8:20:01 PM] Protobuf message object length 1
+[12/21/2021, 8:20:01 PM] Protobuf updated properties: remote_comfort_sensing_settings@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.RemoteComfortSensingSettingsTrait)
+[12/21/2021, 8:20:02 PM] API observe POST: complete message received (623)
+[12/21/2021, 8:20:02 PM] Protobuf message object length 1
+[12/21/2021, 8:20:02 PM] Protobuf updated properties: remote_comfort_sensing_state@DEVICE_6416660000B958C2 (type.nestlabs.com/nest.trait.hvac.RemoteComfortSensingStateTrait)
+
+///////////
+// Pepper
+///////////
+{
+  object: {
+    id: "DEVICE_6416660000B958C2",
+    key: "remote_comfort_sensing_settings",
+    uuid: "",
+  },
+  data: {
+    property: {
+      type_url: "type.nestlabs.com/nest.trait.hvac.RemoteComfortSensingSettingsTrait",
+      value: {
+        associatedRcsSensors: [
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C4205E8134",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C1468E63C1",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C2B0298F8D",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C833EF2E4A",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C2B2FC61FD",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C418D466A6",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+        ],
+        rcsControlMode: "RCS_CONTROL_MODE_HOLD",
+        activeRcsSelection: {
+          rcsSourceType: "RCS_SOURCE_TYPE_SINGLE_SENSOR",
+          activeRcsSensor: {
+            resourceId: "DEVICE_18B430C4205E8134",
+          },
+        },
+        multiSensorSettings: null,
+      },
+    },
+  },
+}
+
+///////////
+// office
+///////////
+{
+  object: {
+    id: "DEVICE_6416660000B958C2",
+    key: "remote_comfort_sensing_settings",
+    uuid: "",
+  },
+  data: {
+    property: {
+      type_url: "type.nestlabs.com/nest.trait.hvac.RemoteComfortSensingSettingsTrait",
+      value: {
+        associatedRcsSensors: [
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C418D466A6",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C833EF2E4A",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C2B2FC61FD",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C4205E8134",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C1468E63C1",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C2B0298F8D",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+        ],
+        rcsControlMode: "RCS_CONTROL_MODE_HOLD",
+        activeRcsSelection: {
+          rcsSourceType: "RCS_SOURCE_TYPE_SINGLE_SENSOR",
+          activeRcsSensor: {
+            resourceId: "DEVICE_18B430C1468E63C1",
+          },
+        },
+        multiSensorSettings: null,
+      },
+    },
+  },
+}
+
+//////////////
+// Thermostat
+//////////////
+{
+  object: {
+    id: "DEVICE_6416660000B958C2",
+    key: "remote_comfort_sensing_settings",
+    uuid: "",
+  },
+  data: {
+    property: {
+      type_url: "type.nestlabs.com/nest.trait.hvac.RemoteComfortSensingSettingsTrait",
+      value: {
+        associatedRcsSensors: [
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C4205E8134",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C1468E63C1",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C418D466A6",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C2B0298F8D",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C833EF2E4A",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+          {
+            deviceId: {
+              resourceId: "DEVICE_18B430C2B2FC61FD",
+            },
+            vendorId: 9050,
+            productId: 26,
+          },
+        ],
+        rcsControlMode: "RCS_CONTROL_MODE_HOLD",
+        activeRcsSelection: {
+          rcsSourceType: "RCS_SOURCE_TYPE_BACKPLATE",
+          activeRcsSensor: null,
+        },
+        multiSensorSettings: null,
+      },
+    },
+  },
+}
+
+// command
+
+{
+                traitLabel: 'structure_mode',
+                command: {
+                    type_url: 'type.nestlabs.com/nest.trait.occupancy.StructureModeTrait.StructureModeChangeRequest',
+                    value: {
+                        structureMode: home ? 'STRUCTURE_MODE_HOME' : 'STRUCTURE_MODE_AWAY',
+                        reason: 'STRUCTURE_MODE_REASON_EXPLICIT_INTENT',
+                        userId: {
+                            resourceId: this.structure.user_id
+                        }
+                    }
+                }
+            };
+
+// command (transformed)
+[
+  {
+    traitLabel: "structure_mode",
+    command: {
+      type_url: "type.nestlabs.com/nest.trait.occupancy.StructureModeTrait.StructureModeChangeRequest",
+      value: {
+        "0": 8,
+        "1": 2,
+        "2": 16,
+        "3": 1,
+        "4": 26,
+        "5": 23,
+        "6": 10,
+        "7": 21,
+        "8": 85,
+        "9": 83,
+        "10": 69,
+        "11": 82,
+        "12": 95,
+        "13": 48,
+        "14": 49,
+        "15": 53,
+        "16": 69,
+        "17": 65,
+        "18": 68,
+        "19": 56,
+        "20": 67,
+        "21": 56,
+        "22": 54,
+        "23": 49,
+        "24": 48,
+        "25": 68,
+        "26": 52,
+        "27": 53,
+        "28": 53,
+      },
+    },
+  },
+]

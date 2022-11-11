@@ -1,0 +1,39 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "build/src"
+  ],
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "homebridge": "DEBUG=* hb-service run -P /workspaces/nest-hacking/node_modules -U /workspaces/nest-hacking",
+    "dev": "ts-node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^14.11.2",
+    "@types/node-fetch": "^2.5.12",
+    "gts": "^3.1.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "homebridge": "^1.3.8",
+    "homebridge-config-ui-x": "^4.41.5",
+    "homebridge-nest": "^4.6.2",
+    "node-fetch": "^2.6.6"
+  }
+}

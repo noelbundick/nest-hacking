@@ -1,0 +1,23 @@
+{
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        },
+        {
+            "name": "Nest",
+            "googleAuth": {
+                "issueToken": "https://accounts.google.com/o/oauth2/iframerpc?action=issueToken&response_type=token%20id_token&login_hint=AJDLj6LQu-SMCQLMJfOUep6S7tCeYPauiICtkZ2P1KSgMiIE3gGZzktQaJD-SQv5fL1cbxTfXIfBJdFxLhwll-5rIk5evhPHfQ&client_id=733249279899-44tchle2kaa9afr5v9ov7jbuojfr9lrq.apps.googleusercontent.com&origin=https%3A%2F%2Fhome.nest.com&scope=openid%20profile%20email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fnest-account&ss_domain=https%3A%2F%2Fhome.nest.com",
+                "cookies": "__Secure-3PSID=AQgH2veCZNslG01apKcNtP70KhutI1vomyMKiV7lAMuUqJ4qKvyMzGNV80PmQF95jCotlg.; __Host-3PLSID=AQgH2qcacEkxptvusMT4EIvkSZ4rvUJUIa3jWASaFRpVGyM62IKkiqB_-ScsFbQuU9T4OQ.; __Secure-3PAPISID=jX8TFbbOryRbHcCN/A8aCQHQOOdVgARNSq; NID=220=QyBQNeSSS-Nk20noW4Sf0BKBBh8Pjrh4UGY6o7ZHyU5IIbq5fPxIRlQltge0VSWF8TRcC28wDp7hlNV5JhEjvAEj5E5qTtMJB0Wt-m9qhqn1GwwUC07OYuUw-JUHkEqRiWhIUUSVQzqNRrQgwFrNGb6AarnBTo9-NeKHcyPORel3g3KpZsL_-TF2nvexIXCN; __Secure-3PSIDCC=AJi4QfE7lnVF29Gcutr9-DlKGc_XMkdaW1iEixuibFP7VcUR5y9LteyGhSV0iTwSNmjc2g_iZw"
+            },
+            "platform": "Nest"
+        }
+    ],
+    "bridge": {
+        "name": "Homebridge 635B",
+        "username": "0E:30:EE:61:63:5B",
+        "port": 51319,
+        "pin": "735-27-233"
+    }
+}
